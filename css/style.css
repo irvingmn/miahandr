@@ -220,13 +220,14 @@ p {
 #slide2 {
   /* background-image: url("../img/miareef.jpg"); */
   z-index:2;
-  background: rgba(0, 0, 0, 0.3)
+  background: rgba(0, 0, 0)
 }
 
 #slide3:before {
-  background-image: url("../img/miacity.jpg");
+  /* background-image: url("../img/miacity.jpg"); */
   -webkit-transform: translateZ(-1px) scale(2);
   transform: translateZ(-1px) scale(2);
+  background: rgba(0, 0, 0, 0.3)
 }
 
 #slide3{
