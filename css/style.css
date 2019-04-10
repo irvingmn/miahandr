@@ -210,15 +210,17 @@ p {
 }
 
 #bacalar:before {
-  background-image: url("../img/miabac.jpg");
+  /* background-image: url("../img/miabac.jpg"); */
   -webkit-transform: translateZ(-1px) scale(2);
   transform: translateZ(-1px) scale(2);
+  background: rgba(0, 0, 0, 0.3)
 
 }
 
 #slide2 {
-  background-image: url("../img/miareef.jpg");
+  /* background-image: url("../img/miareef.jpg"); */
   z-index:2;
+  background: rgba(0, 0, 0, 0.3)
 }
 
 #slide3:before {
